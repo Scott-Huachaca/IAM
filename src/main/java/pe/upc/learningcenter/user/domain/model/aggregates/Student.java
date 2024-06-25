@@ -18,6 +18,9 @@ public class Student extends AuditableAbstractAggregateRoot<Student> {
     @NotBlank
     private String email;
 
+    //add password
+
+
     public String getFullName() { return fullName.getFullName(); }
     public String getEmail() { return email; }
 

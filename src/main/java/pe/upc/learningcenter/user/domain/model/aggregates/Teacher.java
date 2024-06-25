@@ -19,6 +19,8 @@ public class Teacher extends AuditableAbstractAggregateRoot<Teacher> {
     @NotBlank
     private String email;
 
+
+
     public String getFullName() { return fullName.getFullName(); }
     public String getEmail() { return email; }
 
